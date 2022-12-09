@@ -11,11 +11,6 @@ const tipagem02 = document.getElementById('ty2');
 
 var contagemPoke = 1;
 
-const resetar = () => {
-    tipagem01.innerHTML = "";
-    tipagem02.innerHTML = "";
-}
-
 const BuscaPoke = async (pokemon) => {
     const Resposta = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
    
@@ -47,6 +42,8 @@ const LocalePoke = async (pokemon) => {
         NumeroPoke.innerHTML = '???';
         PokeNormal.src = ''; 
         PokeShiny.src = '';
+        tipagem01.innerHTML = "";
+        tipagem02.innerHTML = "";
     }
 }
 
