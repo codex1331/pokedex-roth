@@ -1,0 +1,524 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+
+body{
+    background-color: #3c3c3c;
+    text-align: center;
+    max-height: 852px;
+}
+
+img#title{
+    width: 45%;
+    height: 17%;
+    left: 29%;
+    top: -3%;
+    position: absolute;
+}
+
+#dex{
+    background-color: #f00;
+    display: inline-block;
+    position: relative;
+    top: 14vh;
+    left: 16%;
+    height: 82vh;
+    width: 33vw;
+    border: solid 4px #000;
+    border-radius: 8%;
+}
+
+#visor{
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    bottom: 37vh;
+    height: 31vh;
+    left: -16.5%;
+    border-radius: 20px;
+    width: 30vw;
+    right: 39vw;
+    border: 3px solid #000000;
+}
+
+img.pokeimgF{
+    position: absolute;
+    left: 37%;
+    width: 12%;
+    height: 20%;
+    top: 21.5%;
+}
+
+img.pokeshiny{
+    position: absolute;
+    left: 51%;
+    width: 12%;
+    height: 20%;
+    top: 21.5%;
+}
+
+img{
+    border-radius: 20px;
+    width: 28vw;
+    height: 29vh;
+    right: 38vw;
+    top: 1vh;
+    position: relative;
+    left: 0vw;
+}
+
+#Npoke{
+    background-color: #ffff;
+    width: 27vw;
+    height: 8vh;
+    left: 37%;
+    position: relative;
+    bottom: 35vh;
+    border-radius: 20px;
+    border: 3px solid;
+}
+
+#type1{
+    height: 7vh;
+    width: 12vw;
+    left: 38vw;
+    bottom: 33vh;
+    background-color: #ffff;
+    position: relative;
+    border-radius: 20px;
+    border: solid 3px #000;
+}
+
+#type2{
+    height: 7vh;
+    width: 12vw;
+    background-color: #ffff;
+    bottom: 40.5vh;
+    left: 51vw;
+    position: relative;
+    border-radius: 20px;
+    border: solid 3px #000;
+}
+
+h2{
+    text-align: center;
+    top: 1.8vh;
+    left: 4.4vw;
+    position: absolute;
+    color: #000;
+    font-size: 3vh;
+    text-transform: capitalize;
+}
+
+.Data{
+    color: #000;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    text-transform: capitalize;
+}
+
+.form{
+    bottom: 23vh;
+    position: absolute;
+    width: 27vw;
+    left: 37vw;
+    height: 7vh;
+    border-radius: 20px;
+}
+
+.procura{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    border: solid 3px #000;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+input::placeholder{
+    position: absolute;
+    font-size: 3vh;
+    left: 8vw;
+    top: 1vh;
+    color: #000;
+}
+
+.botoes{
+    position: absolute;
+    gap: 5vw;
+    bottom: 12vh;
+    left: 37vw;
+    display: flex;
+}
+
+.prox{
+    width: 11vw;
+    height: 7vh;
+    border-radius: 20px;
+    border: 3px solid #000;
+    font-size: 2vh;
+}
+
+.ante{
+    width: 11vw;
+    height: 7vh;
+    border-radius: 20px;
+    border: 3px solid #000;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 800px)
+{
+    body{
+        background-color: #3c3c3c;
+        text-align: center;
+        max-height: 852px;
+    }
+    
+    img#title{
+        width: 45%;
+        height: 17%;
+        left: 32%;
+        top: -3%;
+        position: absolute;
+    }
+    
+    #dex{
+        background-color: #f00;
+        display: inline-block;
+        position: relative;
+        top: 14vh;
+        left: 23vw;
+        height: 82vh;
+        width: 40vw;
+        border: solid 4px #000;
+        border-radius: 4%;
+    }
+    
+    #visor{
+        display: inline-block;
+        position: relative;
+        background-color: #ffffff;
+        bottom: 37vh;
+        height: 31vh;
+        border-radius: 20px;
+        width: 36vw;
+        border: 3px solid #000000;
+    }
+    
+    img.pokeimgF{
+        position: absolute;
+        left: 37%;
+        width: 16%;
+        height: 18%;
+        top: 24%;
+    }
+    
+    img.pokeshiny{
+        position: absolute;
+        left: 53%;
+        width: 16%;
+        height: 18%;
+        top: 24%;
+    }
+    
+    img{
+        border-radius: 20px;
+        width: 35vw;
+        height: 29vh;
+        right: 38vw;
+        top: 1vh;
+        position: relative;
+        left: 0vw;
+    }
+    
+    #Npoke{
+        background-color: #ffff;
+        width: 31vw;
+        height: 8vh;
+        left: 39%;
+        position: relative;
+        bottom: 35vh;
+        border-radius: 20px;
+        border: 3px solid;
+    }
+    
+    #type1{
+        height: 7vh;
+        width: 15vw;
+        left: 39vw;
+        bottom: 33vh;
+        background-color: #ffff;
+        position: relative;
+        border-radius: 20px;
+        border: solid 3px #000;
+    }
+    
+    #type2{
+        height: 7vh;
+        width: 15vw;
+        background-color: #ffff;
+        bottom: 40.5vh;
+        left: 55vw;
+        position: relative;
+        border-radius: 20px;
+        border: solid 3px #000;
+    }
+    
+    h2{
+        text-align: center;
+        top: 1.8vh;
+        left: 4vw;
+        position: absolute;
+        color: #000;
+        font-size: 3vh;
+        text-transform: capitalize;
+    }
+    
+    .Data{
+        color: #000;
+        font-weight: 800;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        text-transform: capitalize;
+    }
+    
+    .form{
+        bottom: 23vh;
+        position: absolute;
+        width: 31vw;
+        height: 7vh;
+        border-radius: 20px;
+        left: 39vw;
+    }
+    
+    .procura{
+        width: 31vw;
+        height: 100%;
+        border-radius: 18px;
+        border: solid 3px #000;
+        text-align: center;
+        font-size: 2.5rem;
+        left: 39vw;
+    }
+    
+    input::placeholder{
+        position: absolute;
+        font-size: 3vh;
+        left: 3vw;
+        top: 1vh;
+        color: #000;
+    }
+    
+    .botoes{
+        position: absolute;
+        gap: 5vw;
+        bottom: 12vh;
+        left: 41.5vw;
+        display: flex;
+    }
+    
+    .prox{
+        width: 11vw;
+        height: 7vh;
+        border-radius: 20px;
+        border: 3px solid #000;
+        font-size: 2vh;
+        font-weight: 600;
+        font-size: 2.5vh;
+    }
+    
+    .ante{
+        width: 11vw;
+        height: 7vh;
+        border-radius: 20px;
+        border: 3px solid #000;
+        font-size: 2vh;
+        font-weight: 600;
+        font-size: 2.5vh;
+    }
+}
+
+@media only screen and (max-width: 392px)
+{
+    body{
+        background-color: #3c3c3c;
+        text-align: center;
+        max-height: 852px;
+    }
+    
+    img#title{
+        width: 84%;
+        height: 12%;
+        left: 10%;
+        top: 1.5%;
+        position: absolute;
+    }
+    
+    #dex{
+        background-color: #f00;
+        display: inline-block;
+        position: relative;
+        top: 14vh;
+        left: 1vw;
+        height: 82vh;
+        width: 80vw;
+        border: solid 4px #000;
+        border-radius: 4%;
+    }
+    
+    #visor{
+        display: inline-block;
+        position: relative;
+        background-color: #ffffff;
+        bottom: 66vh;
+        height: 31vh;
+        border-radius: 20px;
+        width: 70vw;
+        border: 3px solid #000000;
+        left: 1vw;
+    }
+    
+    img.pokeimgF{
+        position: absolute;
+        left: 25%;
+        width: 23%;
+        height: 15%;
+        top: 26%;
+    }
+    
+    img.pokeshiny{
+        position: absolute;
+        left: 56%;
+        width: 23%;
+        height: 15%;
+        top: 26%;
+    }
+    
+    img{
+        border-radius: 20px;
+        width: 65vw;
+        height: 29vh;
+        right: 38vw;
+        top: 1vh;
+        position: relative;
+        left: 0vw;
+    }
+    
+    #Npoke{
+        background-color: #ffff;
+        width: 70vw;
+        height: 8vh;
+        left: 16%;
+        position: relative;
+        bottom: 64vh;
+        border-radius: 20px;
+        border: 3px solid;
+    }
+    
+    #type1{
+        height: 7vh;
+        width: 27vw;
+        left: 19vw;
+        bottom: 63vh;
+        background-color: #ffff;
+        position: relative;
+        border-radius: 20px;
+        border: solid 3px #000;
+    }
+    
+    #type2{
+        height: 7vh;
+        width: 28vw;
+        background-color: #ffff;
+        bottom: 70.5vh;
+        left: 55vw;
+        position: relative;
+        border-radius: 20px;
+        border: solid 3px #000;
+    }
+    
+    h2{
+        text-align: center;
+        top: 1.8vh;
+        left: 5vw;
+        position: absolute;
+        color: #000;
+        font-size: 3vh;
+        text-transform: capitalize;
+    }
+    
+    .Data{
+        color: #000;
+        font-weight: 800;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        text-transform: capitalize;
+    }
+    
+    .form{
+        bottom: 23vh;
+        position: absolute;
+        width: 45vw;
+        height: 7vh;
+        border-radius: 20px;
+        left: 17vw;
+    }
+    
+    .procura{
+        width: 70vw;
+        height: 100%;
+        border-radius: 18px;
+        border: solid 3px #000;
+        text-align: center;
+        font-size: 2.5rem;
+        left: 20vw;
+    }
+    
+    input::placeholder{
+        position: absolute;
+        font-size: 3vh;
+        left: 9vw;
+        top: 1vh;
+        color: #000;
+    }
+    
+    .botoes{
+        position: absolute;
+        gap: 5vw;
+        bottom: 12vh;
+        left: 41.5vw;
+        display: flex;
+    }
+    
+    .prox{
+        width: 22vw;
+        height: 7vh;
+        border-radius: 20px;
+        border: 3px solid #000;
+        font-size: 2vh;
+        font-weight: 600;
+        font-size: 2.5vh;
+        left: 18vw;
+        position: absolute;
+        bottom: 0vh;
+    }
+    
+    .ante{
+        width: 22vw;
+        height: 7vh;
+        border-radius: 20px;
+        border: 3px solid #000;
+        font-size: 2vh;
+        font-weight: 600;
+        font-size: 2.5vh;
+        left: -17vw;
+        position: absolute;
+        bottom: 0vh;
+    }
+}
